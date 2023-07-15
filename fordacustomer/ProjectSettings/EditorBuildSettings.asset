@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MovingTextFL.unity
     guid: 5619cab99386ac9b8a2814aaeb7d4f46
+  - enabled: 1
+    path: Assets/Scenes/ComicsInTheStart.unity
+    guid: 86acb2079186afff6a15b746e92935c0
   m_configObjects: {}
