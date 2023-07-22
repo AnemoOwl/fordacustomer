@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ComicsInTheStart.unity
     guid: 86acb2079186afff6a15b746e92935c0
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: bd0f7c5a74144da4b90b185953806066
   m_configObjects: {}

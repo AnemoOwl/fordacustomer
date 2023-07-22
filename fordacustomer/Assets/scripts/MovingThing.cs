@@ -15,7 +15,7 @@ public class movingThing : MonoBehaviour
    
     void Update()
     {
-        transform.position = Vector3.MoveTowards( transform.position, SusGet.transform.position, 0.01f );
+        transform.position = Vector3.MoveTowards( transform.position, SusGet.transform.position, 0.02f );
 
         if( transform.position == SusGet.transform.position )
         { 
