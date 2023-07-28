@@ -12,13 +12,14 @@ public class SoundSettings : MonoBehaviour
     private void Start()
     {
         oldVolume = slider.value;
-        if (!PlayerPrefs.HasKey("volume")) slider.value = 1;
+        if (!PlayerPrefs.HasKey("volume")) slider.value = 100;
+        else slider.value = PlayerPrefs.GetFloat("volume");
 
     }
 
     private void Update()
     {
-        if(oldVolume != slider.value)
+        if( oldVolume != slider.value )
         {
             PlayerPrefs.SetFloat("volume", slider.value);
             PlayerPrefs.Save();
